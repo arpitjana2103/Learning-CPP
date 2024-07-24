@@ -1,19 +1,24 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 /*
+
 Variable : 
+-------------
 Variable is nothing but an empty box or storage unit where we can store data.
 
 There can be different types of data such as : 
 
-1. string ( "Rini", "Shiro", "Kolkata", "I m a boy", "721212", "%#$%90902345" )
-2. char   ( 'A', 'B', 'C', 'D', 'E', '$', '-', '2' )
-3. bool   ( true = 1, false = 0 )
-4. int    ( 12, 34, -1234, 8996, 7074809373, 721212, 1 )
-5. float  ( 13.764, -9.4, 67.12 )
-6. double ( 123.7656, 9.46, 78.500 )
-7. void  
+| No. | Data Type | Literals                                                            |
+|-----|-----------|---------------------------------------------------------------------|
+| 1   | string    | "Rini", "Shiro", "Kolkata", "I m a boy", "721212", "%#$%90902345"   |
+| 2   | char      | 'A', 'B', 'C', 'D', 'E', '$', '-', '2'                              |
+| 3   | bool      | true (1), false (0)                                                 |
+| 4   | int       | 12, 34, -1234, 8996, 7074809373, 721212, 1                          |
+| 5   | float     | 13.764, -9.4, 67.12                                                 |
+| 6   | double    | 123.7656, 9.46, 78.500                                              |
+| 7   | void      | (No value)                                                          |
+
 */
 
 int main() {
