@@ -15,17 +15,24 @@ There can be different types of data such as :
 | 2   | char      | 'A', 'B', 'C', 'D', 'E', '$', '-', '2'                              |
 | 3   | bool      | true (1), false (0)                                                 |
 | 4   | int       | 12, 34, -1234, 8996, 7074809373, 721212, 1                          |
-| 5   | float     | 13.764, -9.4, 67.12                                                 |
+| 5   | float     | 13.764, -9.4, 67.12, 6.0, 5.000, 5.0000000001                       |
 | 6   | double    | 123.7656, 9.46, 78.500                                              |
 | 7   | void      | (No value)                                                          |
 
 */
 
+// 5 = 5.00000
+// 5.1 = 5.1000000
+// 5.000002 = 5.1 
+
 int main() {
 
-    // Create a variable to store your name
+    // Variable Declare
+    string friendName;
+    // Variable Initialize
+    friendName = "Rini";
+
     string myName = "Arpit";
-    string friendName = "Rini";
 
     // Create a variable to store your age
     int myAge = 22;
