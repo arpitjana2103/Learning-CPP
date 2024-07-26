@@ -4,9 +4,11 @@ using namespace std;
 int main() {
 
     // Q1 : Print your Name
-    cout << "Arpit Jana";
-    cout << endl;
-    cout << 2+3;
+    // cout << "Arpit Jana";
+    // cout << endl;
+    // cout << 2+3;
+
+    cout << "Hello India" << endl;
 
     return 0;
 }
